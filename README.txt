@@ -1,4 +1,6 @@
-﻿1. To use there is apk in apk folder
+﻿
+ Skill ID: amzn1.ask.skill.739a8b72-eb38-409b-b618-282da7848dd4
+ 1. To use there is apk in apk folder
 2. You have to register as a customer there(seller end is in developing mode)
 3. index.json is intent json for alexa skill kit
 4. lambda_function.py is aws lambda session handler
