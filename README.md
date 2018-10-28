@@ -1,1 +1,1 @@
-!follow readme for instruction
+follow README.txt for instructions
