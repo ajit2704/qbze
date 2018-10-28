@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">SmartBaniya</string>
+    <string name="title_activity_authenticator">AuthenticatorActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_name">Full Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_mobile">Mobile</string>
+    <string name="hint_address">Postal address</string>
+    <string name="btn_save">Save</string>
+    <string name="err_msg_name">Enter your full name</string>
+    <string name="err_msg_shop">Enter shop name</string>
+    <string name="err_msg_email">Enter valid email address</string>
+    <string name="err_msg_mobile">Enter the mobile</string>
+    <string name="err_msg_address">Enter the address</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="hint_shop_name">Shop Name</string>
+    <string name="hint_shop_address">Shop Address</string>
+    <string name="hint_owner_name">Owner Name</string>
+    <string name="title_activity_main4">Main4Activity</string>
+
+</resources>

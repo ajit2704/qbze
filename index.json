@@ -1,0 +1,155 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "smart baniya",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PreviousIntent",
+                    "samples": []
+                },
+                {
+                    "name": "add_item",
+                    "slots": [
+                        {
+                            "name": "item",
+                            "type": "AMAZON.Food"
+                        },
+                        {
+                            "name": "price",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "add item {item} price {price}",
+                        "add {item} wich price is {price}",
+                        "add {item} {price} rupees"
+                    ]
+                },
+                {
+                    "name": "change_price",
+                    "slots": [
+                        {
+                            "name": "item",
+                            "type": "AMAZON.Food"
+                        },
+                        {
+                            "name": "price",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "change price of {item} to {price}"
+                    ]
+                },
+                {
+                    "name": "purchase",
+                    "slots": [
+                        {
+                            "name": "quanitity",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "item",
+                            "type": "AMAZON.Food"
+                        }
+                    ],
+                    "samples": [
+                        "{item} {quanitity}",
+                        "{quanitity} {item}",
+                        "purchase {quanitity} {item}",
+                        "purchase item {item} quantity {quanitity}",
+                        "purchase me {quanitity} {item}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.MoreIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateSettingsIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NextIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollRightIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollLeftIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "bill",
+                    "slots": [],
+                    "samples": [
+                        "go for bill",
+                        "make bill",
+                        "make my bill"
+                    ]
+                },
+                {
+                    "name": "customer",
+                    "slots": [
+                        {
+                            "name": "mobile",
+                            "type": "AMAZON.FOUR_DIGIT_NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "customer  {mobile}",
+                        "customer is {mobile}"
+                    ]
+                },
+                {
+                    "name": "OTP",
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.FOUR_DIGIT_NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "otp {number}",
+                        "otp is {number}"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
