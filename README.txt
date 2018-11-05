@@ -18,5 +18,3 @@ Customer credential:
 customer1: email: ajit27.iitkgp@gmail.com  pass:smartBaniyaTest1  mobile: 7478030555
 customer2: email : e.coli.iitkgp@gmail.com pass:smartBaniyaTest2 mobile: 1235678901
 
-
-Seller: email: baniasmart20@gmail.com pass: smartBaniyaTest3 (only email required)
